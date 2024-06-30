@@ -1,5 +1,5 @@
 # 使用基础镜像
-FROM ghcr.nju.edu.cn/parkervcp/installers:debian
+FROM ghcr.io/parkervcp/installers:debian
 # 将当前目录下的 install.sh 拷贝到容器内
 COPY install.sh /root/install.sh
 
